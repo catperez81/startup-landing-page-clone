@@ -440,9 +440,9 @@ th {
 body {
     background-color: LightGray;
 }
-div {
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
 
 /* Navigation Section
    ========================================================================== */
@@ -452,9 +452,7 @@ div {
 }
 
 .top-navigation > .content {
-  width:970px;
   height:70px;
-  margin:0 auto;
  -webkit-font-smoothing: antialiased;
 }
 
@@ -498,16 +496,43 @@ a:hover {
 /* Intro Section
    ========================================================================== */
 
+.intro > .content {
+  width:970px;
+  margin:0 auto;
+}
 
-   .intro {
-    background-image: url("images/karma-background.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    overflow:auto;
-   }
+h1 {
+  padding-top: 5em;
+  font-size: 3em;
+}
 
-    h1, h3 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-   }
+h3 {
+  font-size: 1.5em;
+}
+
+h1, h3 {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+color: white;
+-webkit-font-smoothing: antialiased;
+}
+
+.button {
+position:center;
+display:inline-block;
+}
+
+.intro {
+background: url(../images/karma-background.jpg);
+background-position: 0 bottom;
+background-repeat: no-repeat;
+background-size: cover;
+position:fixed center;
+height: 600px;
+padding-top:.5em;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;*/
+}
+
+  

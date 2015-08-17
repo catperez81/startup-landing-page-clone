@@ -10,6 +10,14 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /**
@@ -425,3 +433,81 @@ td,
 th {
   padding: 0;
 }
+
+/* My CSS - Cancel this out once page is laid out
+   ========================================================================== */
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/* Navigation Section
+   ========================================================================== */
+
+.top-navigation {
+  background-color:white;
+}
+
+.top-navigation > .content {
+  width:970px;
+  height:70px;
+  margin:0 auto;
+ -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.logo {
+  margin: 1em 3em;
+}
+
+.links {
+  list-style-type: none;
+  float:right;
+  margin: 1.5em 3em;
+}
+
+a {
+  text-decoration:none;
+  color: #8A8D8A;
+}
+
+a:visited {
+  color: #848186; 
+}
+
+a:hover {
+  color: #27292B;
+}
+
+.links li {
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #8A8D8A;
+    font-size:16px;
+    letter-spacing: 0.03em;
+    margin-left: 1em;
+}
+
+/* Intro Section
+   ========================================================================== */
+
+
+   .intro {
+    background-image: url("images/karma-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow:auto;
+   }
+
+    h1, h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+   }

@@ -9,7 +9,8 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+
+  font-family: 'roboto', sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -webkit-font-smoothing: antialiased;
@@ -143,6 +144,7 @@ dfn {
  */
 
 h1 {
+  font-family:'roboto', sans-serif;
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -453,7 +455,7 @@ body {
   background-color:white;
   position: fixed;
   width: 100%;
-z-index: 9999;
+  z-index: 9999;
 }
 
 .content {
@@ -566,12 +568,14 @@ margin-top: -2rem;
   background-color: #fff;
   overflow: hidden;
   padding-bottom: 10rem;
-  display:block;
+  display: block;
+  vertical-align: middle;
 }
 
-.values .li {
-      vertical-align: baseline;
-}
+/*.devices .li {
+  vertical-align: middle;
+  line-height: 20rem;
+}*/
 
 .values h2 {
   font-size: 2.75rem;
@@ -581,24 +585,21 @@ margin-top: -2rem;
 
 }
 
-.values .caption {
-  text-align: center;
-}
-
-
-.values .caption {
-    width: 33.3333333%;
-    display: inline-block;
-    /* styles to assist with debugging */
-   
-
-  }
-
-.devices li {
+.values .devices li {
+  display:list-item;
   width: 33.3333333%;
   float: left;
-  text-decoration: none;
   list-style:none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.values .caption {
+  text-align: center;
+  line-height: 2rem;
+  vertical-align: middle;
+  margin-top: 10rem;
+  display: inline-block;
 }
 
 .values .devices h3 {

@@ -451,6 +451,9 @@ body {
 
 .top-navigation {
   background-color:white;
+  position: fixed;
+  width: 100%;
+z-index: 9999;
 }
 
 .content {
@@ -510,13 +513,13 @@ a:hover {
 }
 
 .intro h1 {
-  font-family: 'Roboto: 300', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-top: 4em;
   font-size: 3em;
 }
 
 h3 {
-  font-family: 'Roboto: 300', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   margin-top: -.5em;
 }
@@ -524,6 +527,7 @@ h3 {
 .intro h1, h3 {
 text-align: center;
 color: white;
+font-family: 'Roboto', sans-serif;
 -webkit-font-smoothing: antialiased;
 }
 
@@ -548,7 +552,7 @@ background-position: center bottom;
 background-repeat: no-repeat;
 background-size: cover;
 color: white;
-height: 45.938rem;
+height: 45rem;
 margin-top: -2rem;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -561,25 +565,51 @@ margin-top: -2rem;
 .values {
   background-color: #fff;
   overflow: hidden;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   display:block;
+}
+
+.values .li {
+      vertical-align: baseline;
 }
 
 .values h2 {
   font-size: 2.75rem;
-  margin: 1.625rem 0 3.125rem;
+  margin: 5rem 5rem;
   font-weight: 300;
+  text-align:center;
 
 }
 
+.values .caption {
+  text-align: center;
+}
+
+
+.values .caption {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+   
+
+  }
 
 .devices li {
   width: 33.3333333%;
   float: left;
   text-decoration: none;
+  list-style:none;
 }
 
-.caption {
+.values .devices h3 {
+  color: #383838;
+  margin-top: 2.5rem 0px 1.875rem;
+  display:block;
+  font-weight: 400;
+  font-size: 1.563rem;
+}
+
+.content {
     margin: 0;
     padding: 0;
     border: 0;

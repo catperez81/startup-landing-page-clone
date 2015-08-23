@@ -555,4 +555,35 @@ margin-top: -2rem;
 -o-background-size: cover;*/
 }
 
-  
+/* Value Section
+========================================================================== */
+
+.values {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  display:block;
+}
+
+.values h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+
+}
+
+
+.devices li {
+  width: 33.3333333%;
+  float: left;
+  text-decoration: none;
+}
+
+.caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }

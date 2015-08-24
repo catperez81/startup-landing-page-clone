@@ -646,7 +646,10 @@ h5 {
 .social hr {
     border: 0;
     border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
+    width: 80%;
+    position: center;
+    padding-bottom: 3rem;
+
 }
 
 .social .icons > li {

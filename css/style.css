@@ -625,10 +625,22 @@ margin-top: -2rem;
 
 .social {
     background:white;
-    margin-top:-3rem;
+    margin-top:-2rem;
+    padding-bottom: 10rem;
     text-align:center;
     position:relative;
     font-family: FontAwesome;
+}
+
+h5 {
+  font-family: 'Roboto';
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.copy {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .social hr {
@@ -649,6 +661,6 @@ margin-top: -2rem;
   text-align: center;
 }
 
-ul .icons {
-  margin-left:none;
+ul  {
+  margin-left:-2.5rem;
 }

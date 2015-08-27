@@ -461,11 +461,14 @@ body {
 .content {
     padding: 0 0.938rem;
     margin: 0 auto;
-    min-width: 37.5rem;
+    min-width: 47.5rem;
 }
 
 .top-navigation > .content {
   height:70px;
+  max-width: 65rem;
+  margin-left:auto;
+  margin-right:auto;
  -webkit-font-smoothing: antialiased;
 }
 
@@ -513,6 +516,7 @@ a:hover {
   width:970px;
   margin:0 auto;
 }
+
 
 .intro h1 {
   font-family: 'Roboto', sans-serif;
@@ -585,12 +589,18 @@ margin-top: -2rem;
 
 }
 
-.values .devices li {
-  float: left;
-  list-style:none;
+.devices li {
   margin-left: auto;
   margin-right: auto;
-  vertical-align: middle;
+}
+
+
+.values .devices > li {
+  float: left;
+  width: 30%;
+  list-style:none;
+  margin-left: 2.5rem;
+  margin-right: auto;
   text-align: -webkit-match-parent;
 
 }

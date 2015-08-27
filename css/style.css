@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,100,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,300,300);
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -464,6 +464,10 @@ body {
     min-width: 47.5rem;
 }
 
+.top-navigation .links {
+  font-style:bold;
+}
+
 .top-navigation > .content {
   height:70px;
   max-width: 65rem;
@@ -484,6 +488,7 @@ body {
 .links {
   list-style-type: none;
   float:right;
+  font-style: bold;
   margin: 1.5em 3em;
 }
 
@@ -549,7 +554,10 @@ border-style: none;
 border-radius: 4px;
 padding: 16px 26px;
 line-height: 1.33;
+}
 
+.big-button:hover{
+  background-color:#FF3300;
 }
 
 .intro {
@@ -571,10 +579,15 @@ margin-top: -2rem;
 .values {
   background-color: #fff;
   overflow: hidden;
-  padding-bottom: 10rem;
+  padding-bottom: 7rem;
   display: block;
   vertical-align: middle;
   text-align:center;
+}
+
+.devices {
+  text-align:middle;
+  margin-left: 5rem;
 }
 
 .devices li {
@@ -634,12 +647,13 @@ margin-top: -2rem;
 
 .social {
     background:white;
-    margin-top:-2rem;
+    margin-top:-3rem;
     padding-bottom: 10rem;
     text-align:center;
     position:relative;
     font-family: FontAwesome;
 }
+
 
 h5 {
   font-family: 'Roboto';
@@ -673,6 +687,6 @@ h5 {
   text-align: center;
 }
 
-.footer {
+.social .icons {
   margin-left:-2.5rem;
 }

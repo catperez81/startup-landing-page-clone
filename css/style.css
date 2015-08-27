@@ -599,18 +599,19 @@ margin-top: -2rem;
   float: left;
   width: 30%;
   list-style:none;
-  margin-left: 2.5rem;
-  margin-right: auto;
+/*  margin-left: 2.5rem;
+  margin-right: auto;*/
+  box-sizing: border-box;
   text-align: -webkit-match-parent;
 
 }
 
-.values .caption {
+.caption {
   text-align: center;
   line-height: 2rem;
   vertical-align: middle;
   margin-top: 10rem;
-  display: inline-block;
+  display: block;
 }
 
 .values .devices h3 {

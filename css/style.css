@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,100,100);
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -574,12 +574,15 @@ margin-top: -2rem;
   padding-bottom: 10rem;
   display: block;
   vertical-align: middle;
+  text-align:center;
 }
 
-/*.devices .li {
+.devices li {
   vertical-align: middle;
-  line-height: 20rem;
-}*/
+  line-height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .values h2 {
   font-size: 2.75rem;
@@ -587,11 +590,6 @@ margin-top: -2rem;
   font-weight: 300;
   text-align:center;
 
-}
-
-.devices li {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -610,7 +608,7 @@ margin-top: -2rem;
   text-align: center;
   line-height: 2rem;
   vertical-align: middle;
-  margin-top: 10rem;
+  margin-top: 2rem;
   display: block;
 }
 
@@ -675,6 +673,6 @@ h5 {
   text-align: center;
 }
 
-ul  {
+.footer {
   margin-left:-2.5rem;
 }
